@@ -12,8 +12,30 @@
 # NuGet/packages
 packages/
 
-# ASP.NET runtime
+# ASP.NET runtime data
 App_Data/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local databases and dumps
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sql
+*.bak
+
+# Certificates and keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
 
 # Logs
 *.log
