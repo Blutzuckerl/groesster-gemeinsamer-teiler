@@ -1,0 +1,23 @@
+﻿# Build output
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet/packages
+packages/
+
+# ASP.NET runtime
+App_Data/
+
+# Logs
+*.log
+
+# System
+.DS_Store
+Thumbs.db
