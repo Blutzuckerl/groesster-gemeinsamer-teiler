@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Größter_gemeinsamer_Teiler
 {
-    public partial class Jakob_Reischl_Gmbh : System.Web.UI.Page
+    public partial class GgtRechner : System.Web.UI.Page
     {
         DateTime startZeit;
         DateTime EndZeit;
@@ -21,7 +21,7 @@ namespace Größter_gemeinsamer_Teiler
         protected void Button1_Click(object sender, EventArgs e)
         {
             // string strCaption;
-            // string lol;
+            // removed placeholder comment
             string strEingabeZahl1;
             string strEingabeZahl2;
             strEingabeZahl1 = TextBox1.Text;
@@ -49,7 +49,7 @@ namespace Größter_gemeinsamer_Teiler
             else
             {
 
-                this.TextBox4.Text = "lass es einfach";
+                this.TextBox4.Text = "Bitte geben Sie zwei gueltige ganze Zahlen ein.";
                 this.TextBox3.Text = "FEHLER";
             }
 
@@ -93,7 +93,7 @@ namespace Größter_gemeinsamer_Teiler
         protected void Button2_Click(object sender, EventArgs e)
         {
             // string strCaption;
-            // string lol;
+            // removed placeholder comment
             string strEingabeZahl1;
             string strEingabeZahl2;
             strEingabeZahl1 = TextBox1.Text;
@@ -121,7 +121,7 @@ namespace Größter_gemeinsamer_Teiler
             else
             {
 
-                this.TextBox4.Text = "Du hast irgenwas Falsch gemacht. :I Bitte versuche es erneut!";
+                this.TextBox4.Text = "Bitte pruefen Sie Ihre Eingaben und versuchen Sie es erneut.";
             }
 
         }
@@ -137,7 +137,7 @@ namespace Größter_gemeinsamer_Teiler
         protected void Button3_Click(object sender, EventArgs e)
         {
             // string strCaption;
-            // string lol;
+            // removed placeholder comment
             string strEingabeZahl1;
             string strEingabeZahl2;
             strEingabeZahl1 = TextBox1.Text;
@@ -165,8 +165,8 @@ namespace Größter_gemeinsamer_Teiler
             else
             {
 
-                this.TextBox4.Text = "Sind sie zu dumm zwei ganze Zahlen einzugeben";
-                this.TextBox3.Text = "schwerwiegender FEHLER";
+                this.TextBox4.Text = "Bitte geben Sie zwei gueltige ganze Zahlen ein.";
+                this.TextBox3.Text = "Eingabefehler";
             }
 
 
@@ -185,3 +185,4 @@ namespace Größter_gemeinsamer_Teiler
     }
 }
 //bokaj<2
+

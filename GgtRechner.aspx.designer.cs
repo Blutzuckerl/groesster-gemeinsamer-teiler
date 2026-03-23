@@ -11,7 +11,7 @@ namespace Größter_gemeinsamer_Teiler
 {
 
 
-    public partial class Jakob_Reischl_Gmbh
+    public partial class GgtRechner
     {
 
         /// <summary>
@@ -123,3 +123,4 @@ namespace Größter_gemeinsamer_Teiler
         protected global::System.Web.UI.WebControls.Button Button3;
     }
 }
+

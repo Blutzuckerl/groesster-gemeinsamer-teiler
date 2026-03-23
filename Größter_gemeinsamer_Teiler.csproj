@@ -68,19 +68,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Jakob Reischl Gmbh.aspx" />
+    <Content Include="GgtRechner.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Jakob Reischl Gmbh.aspx.cs">
-      <DependentUpon>Jakob Reischl Gmbh.aspx</DependentUpon>
+    <Compile Include="GgtRechner.aspx.cs">
+      <DependentUpon>GgtRechner.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Jakob Reischl Gmbh.aspx.designer.cs">
-      <DependentUpon>Jakob Reischl Gmbh.aspx</DependentUpon>
+    <Compile Include="GgtRechner.aspx.designer.cs">
+      <DependentUpon>GgtRechner.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

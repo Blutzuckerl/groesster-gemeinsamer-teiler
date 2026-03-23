@@ -18,8 +18,8 @@ It includes multiple algorithm variants and displays rough runtime measurements.
 - IIS Express (Visual Studio)
 
 ## Project Structure
-- `Jakob Reischl Gmbh.aspx`: WebForms page and controls
-- `Jakob Reischl Gmbh.aspx.cs`: algorithm implementations
+- `GgtRechner.aspx`: WebForms page and controls
+- `GgtRechner.aspx.cs`: algorithm implementations
 - `Global.asax`: app lifecycle entry
 - `Web.config`: runtime configuration
 
@@ -36,3 +36,4 @@ It includes multiple algorithm variants and displays rough runtime measurements.
 - Do not commit `App_Data` content, local database files, or private keys.
 - Keep environment variables and credentials in local-only files.
 - Source currently contains legacy demo naming; avoid adding real personal data.
+

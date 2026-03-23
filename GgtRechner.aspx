@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Jakob Reischl Gmbh.aspx.cs" Inherits="Größter_gemeinsamer_Teiler.Jakob_Reischl_Gmbh" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GgtRechner.aspx.cs" Inherits="Größter_gemeinsamer_Teiler.GgtRechner" %>
 
 <!DOCTYPE html>
 
@@ -23,7 +23,8 @@
         <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" style="z-index: 1; left: 865px; top: 325px; position: absolute; height: 82px; width: 308px" Text="Euklidisch(schnell)" />
         <p>
             &nbsp;</p>
-        <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" style="z-index: 1; left: 864px; top: 97px; position: absolute; height: 32px; width: 297px" Text="Button" />
+        <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" style="z-index: 1; left: 864px; top: 97px; position: absolute; height: 32px; width: 297px" Text="Euklidisch (rekursiv)" />
     </form>
 </body>
 </html>
+
